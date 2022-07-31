@@ -1,0 +1,461 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    margin: 0;
+    padding: 0;
+}
+.Nav{
+    font-size: medium;
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    overflow: visible;
+}
+
+.Nav > span >a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.unicef{
+    width: 100%;
+    height: 60px;
+    /* overflow: hidden; */
+    background-color: rgb(241, 241, 241);;
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid black;     */
+}
+
+.unicef img{
+    /* border: 1px solid green;  */
+    margin-bottom: 22px;
+    /* line-height: 20px; */
+}
+.unicef a {
+    float: left;
+    padding-left: 3px;
+    margin-top: 10px;
+    /* border: 1px solid green; */
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+.pic{
+    height: 40px;
+    /* margin: 5px;  */
+    padding: 5px;
+    /* padding-left: 27px; */
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    width: 42%; 
+    text-align: right;
+    display: inline-block;
+    /* border: 2px solid black; */
+    
+}
+.text{
+   height: 40px;
+   /* padding-top: 10px; */
+   padding-bottom: 20px;
+   margin-bottom: 15px;
+   font-size: 15px;
+   width: 42%; 
+   text-align: left;
+   display: inline-block;
+   /* border: 2px solid black;  */
+} 
+.Main{
+    background-color: rgb(248, 247, 247);
+    width: 100%;
+    overflow: auto;
+}
+.div3{
+    /* margin-left: 0; */
+    margin: 0;
+    padding: 0;
+    width: 48%;
+    height: 500px;
+    /* padding-left: 5px; */
+    /* border: 1px solid black; */
+    text-align: right;
+    background-color: rgb(248, 247, 247);
+    display: inline-block;
+    position: relative;
+    /* overflow: auto; */
+}
+.div3 > .first{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 80px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-size: 55px;
+    padding-top: 210px;
+    margin-bottom: 4px;
+    /* padding-top: 0px; */
+    padding-right: 20px;
+    text-align: right;
+    /* border: 1px solid green */ 
+}
+.div3 > .div3a{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 360px;
+    /* border: 1px solid red; */
+}
+.second{                                    
+    font-size: 27px;
+    letter-spacing: -1px;
+}
+.div3 > span{
+    margin-right: 80px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 5px;
+}
+.div3 >span > a{  
+    /* line-height: 10px; */
+    margin-top: 20px;
+    color: rgb(3, 106, 224);
+    text-decoration: none;
+    /* border: 1px solid orange; */
+}
+.div3a > img{
+    margin-top: 0px;
+    /* border: 1px solid green; */
+}
+.a{
+    margin-left: 0;
+    margin: 0;
+    padding: 0;
+    width: 48%;
+    height: 500px;
+    /* overflow:visible; */
+    background-color: rgb(248, 247, 247);
+    display: inline-block;
+    /* border: 1px solid black; */
+    overflow: auto;
+    /* position: relative; */
+}
+#img1{
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+    margin-top: 110px;
+    margin-left: -135px;
+    height: 325px;
+    transform:rotate(-45deg);
+    transform-origin: right top bottom;
+}
+#img2{
+    /* position: relative; */
+    margin: 0;
+    margin-top: 110px;
+    margin-left: -220px;
+    padding: 0;
+    height: 325px;
+    transform:rotate(-45deg);
+    transform-origin: right top bottom;
+}
+#img3{
+    /* position: relative; */
+    margin: 0;
+    margin-top: 110px;
+    margin-left: -220px;
+    padding: 0;
+    height: 325px;
+    transform:rotate(-45deg);
+    transform-origin: right top bottom;
+   
+}
+#img4{
+    /* position: relative; */
+    margin: 0;
+    margin-top: 110px;
+    margin-left: -220px;
+    padding: 0;
+    height: 325px;
+    transform:rotate(-45deg);
+    transform-origin: right top bottom;
+}
+.head{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-size: 55px;
+    padding-top: 80px;
+    margin-bottom: 12px;
+    /* padding-top: 0px; */
+    text-align: center;
+    /* border: 1px solid orange; */
+}
+.child1 > .second{
+    padding-left: 10px;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+.child1 > span{
+     margin-left: 575px;
+    font-weight: 200;
+    font-size: 18px;
+}
+.child1 > span a{
+    margin-top: 0px;
+    /* margin-top: 0px; */
+    line-height: 5px;
+    color: rgb(3, 106, 224);
+    text-decoration: none;
+    text-align: center;
+    /* border: 1px solid orange; */
+}
+.child1{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    /* height: 100px; */
+    background-color: rgb(245, 244, 244);
+    /* border: 2px solid black; */
+}
+.child2{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    /* height: 100px; */
+    background-color: rgb(245, 244, 244);
+    /* border: 2px solid black; */
+   
+}
+.child2 > .head{
+    font-family: Arial, Helvetica, sans-serif !important;
+    letter-spacing: -1px;
+    font-style: italic;
+
+}
+.child2 > .second{
+    padding-left: 10px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    /* border: 1px solid green; */
+}
+.child2 > span{
+    margin-left: 595px; 
+   font-weight: 200;
+   font-size: 18px;
+   
+}
+.child2 > span a{
+   margin-top: 0px;
+   /* margin-top: 0px; */
+   line-height: 5px;
+   color: rgb(3, 106, 224);
+   text-decoration: none;
+   /* text-align: center; */
+   /* border: 1px solid orange; */
+}
+.child2 > #img6{
+    /* align-items: center; */
+    margin-top: 5px;
+    /* border: 1px solid black */
+}
+.color{
+    color: rgb(194, 11, 118);
+    font-style: italic;
+}
+.child3a{
+    width: 48%;
+    margin-left: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(245, 244, 244);
+    /* border: 2px solid black; */
+    display: inline-block;
+    /* overflow: auto; */
+}
+.child3a > .head{
+    letter-spacing: -1px;
+    font-size: 40px;
+}
+.child3a > .second{
+   margin-left: 270px;
+   font-size: 20px;
+    /* border: 1px solid green; */
+}
+.child3a > span{
+   margin-left: 230px;  
+   font-weight: 200;
+   font-size: 18px;
+   /* text-align: center;    */
+}
+.child3a > span a{
+   margin-top: 0px;
+   font-size: 15px;
+   /* margin-top: 0px; */
+   line-height: 5px;
+   color: rgb(3, 106, 224);
+   text-decoration: none;
+   /* border: 1px solid orange; */
+}
+.child3b{
+    width: 48%;
+    background-color: rgb(0, 0, 0);
+    /* border: 2px solid black; */
+    display: inline-block;
+    /* overflow: auto; */
+}
+.child3b > .head{
+    color: white;
+    font-size: 45px;
+    padding-top: 50px ;
+}
+.div3c{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 360px;
+    /* border: 1px solid red; */
+}
+.child3b > .div3c > .second{
+    color: white;
+}
+.child3b > .shed{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(31, 30, 30);
+    overflow: auto;
+}
+.div3c{
+    text-align: center;
+    margin-left: -150px;
+    /* border: 1px solid white; */
+}
+.child3b > span{
+    margin-left: 220px;  
+    font-weight: 200;
+    font-size: 18px;
+    /* text-align: center;    */
+ }
+ .child3b > span a{
+    margin-top: 0px;
+    padding-top: 10px;
+    line-height: 5px;
+    color: rgb(3, 106, 224);
+    text-decoration: none;
+    /* border: 1px solid orange; */
+ }
+ .color1{
+    color: rgb(175, 37, 37);
+    text-align: center;
+    line-height: 15px;
+    font-size: medium;
+    padding-left: 5px;
+    font-weight: bold;
+    /* margin-top: 0; */
+ }
+ .child3a > .second1{
+    /* margin-left: 210px; */
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+     /* border: 1px solid green; */
+ }
+ #style{
+    font-style: italic;
+    background: linear-gradient(to bottom, #500ADC,white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+ }
+ .child3b > .second1{
+    margin-left: 210px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: white;
+     /* border: 1px solid green; */
+ }
+.div3b{
+    /* width: 100%; */
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 255px;
+    background-color: rgb(15, 1, 1);
+    overflow: hidden;
+}
+.div3b > p{
+   font-size: 35px;
+   font-weight: 400;
+   margin-right: 100px;
+   text-align: left;
+}
+  
+ 
+ /*-------------------------*/
+ .afterninthDivpara {
+    background-color: rgb(243, 243, 243);
+
+}
+
+.afterninthDivpara p {
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: justify; */
+    padding: 20px 164px 0px 164px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.aftertenthDiv {
+    /* border: 1px solid green; */
+    /* margin: 50%; */
+    background-color: rgb(243, 243, 243) ;
+   
+
+}
+
+.aftertenthDiv table {
+    /* border: 1px solid blue; */
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+    margin-left: 160px;
+}
+thead tr th{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+tbody tr td:nth-child(even){
+    width: 40px;
+}
+tbody tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    opacity: 0.8;
+}
+tbody tr td a{
+    text-decoration: none;
+    color: black;
+}
+tbody tr td a:hover{
+    text-decoration: underline;
+}
+tbody tr td span a{
+    color: rgb(3, 137, 226);;
+    font-weight: bold;
+}
+#op{
+    opacity: 0.6;
+}
+tbody tr span{
+   
+    opacity: 0.6;
+    
+}
